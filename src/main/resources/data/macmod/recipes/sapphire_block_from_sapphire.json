@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "macmod:sapphire"
+    }
+  },
+  "result": {
+    "item": "macmod:sapphire_block"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 3.0,
+  "group": "sapphire",
+  "ingredients": {
+    "item": "macmod:raw_sapphire"
+  },
+  "result": "macmod:sapphire"
+}
