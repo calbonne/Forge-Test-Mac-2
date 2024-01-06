@@ -3,9 +3,11 @@
   "item.macmod.raw_sapphire": "Raw Sapphire",
   "item.macmod.ruby": "Ruby",
 
+  "item.macmod.metal_detector": "Metal Detector",
+
   "block.macmod.sapphire_block": "Block of Sapphire",
-  "block.macmod.raw_sapphire_block": "Block of Raw Sapphire",
-  "block.macmod.raw_ruby_block": "Block of Raw Ruby",
+  "block.macmod.raw_sapphire_block": "Sapphire Ore",
+  "block.macmod.raw_ruby_block": "Ruby Ore",
 
   "creativetab.tutorial_tab": "Sapphire Tab"
 }

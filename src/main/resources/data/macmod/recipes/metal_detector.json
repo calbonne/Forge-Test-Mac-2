@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "X# ",
+    "#I ",
+    "  I"
+  ],
+  "key":{
+    "X": {
+      "item": "macmod:ruby"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "macmod:metal_detector"
+  }
+}

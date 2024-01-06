@@ -1,6 +1,7 @@
 {
   "values": [
     "macmod:sapphire_block",
-    "macmod:raw_sapphire_block"
+    "macmod:raw_sapphire_block",
+    "macmod:raw_ruby_block"
   ]
 }
