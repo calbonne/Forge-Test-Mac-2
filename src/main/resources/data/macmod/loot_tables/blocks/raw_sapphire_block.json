@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "macmod:raw_sapphire_block"
+          "name": "macmod:sapphire"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "macmod:blocks/ sapphire_block"
+  "random_sequence": "macmod:items/sapphire"
 }

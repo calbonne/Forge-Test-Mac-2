@@ -1,9 +1,11 @@
 {
   "item.macmod.sapphire": "Sapphire",
   "item.macmod.raw_sapphire": "Raw Sapphire",
+  "item.macmod.ruby": "Ruby",
 
   "block.macmod.sapphire_block": "Block of Sapphire",
   "block.macmod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.macmod.raw_ruby_block": "Block of Raw Ruby",
 
   "creativetab.tutorial_tab": "Sapphire Tab"
 }
