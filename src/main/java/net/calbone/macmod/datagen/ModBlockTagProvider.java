@@ -13,8 +13,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModBlockTagProviderex extends BlockTagsProvider {
-    public ModBlockTagProviderex(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
+public class ModBlockTagProvider extends BlockTagsProvider {
+    public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
         super(output, lookupProvider, MacMod.MOD_ID, existingFileHelper);
     }
 
@@ -30,9 +30,18 @@ public class ModBlockTagProviderex extends BlockTagsProvider {
                 ModBlocks.SOUND_BLOCK.get()
                 );
 
+
+        this.tag(BlockTags.NEEDS_STONE_TOOL);
+
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get(),
                         ModBlocks.RAW_RUBY_BLOCK.get(),
                         ModBlocks.SOUND_BLOCK.get());
+
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL);
+        this.tag(Tags.Blocks.NEEDS_WOOD_TOOL);
+        this.tag(Tags.Blocks.NEEDS_GOLD_TOOL);
     }
 }
